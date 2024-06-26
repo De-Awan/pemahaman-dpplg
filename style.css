@@ -1,0 +1,129 @@
+*
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+:root {
+    --bg-primary: #3bcee1;
+    --bg-secondary:  #f4ec1b;
+    --txt-primary:  white;
+    --txt-secondary: #222;
+    --icons-bg-primary: #222;
+    --icons-bg-secondary: rgb(237, 14, 14);
+}
+
+.container{
+     width: 100%;
+     height: auto;
+     background-color: var(--bg-primary);
+}
+
+.second {
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-primary);
+}
+.wrapper {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.card{
+    background-color: var(--bg-secondary);
+    border: 2px solid white;
+    color: var(--txt-secondary);
+    padding: 32px;
+    margin: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 200px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.icons {
+    margin-top: 5px;
+    size: 100px;
+ font-size: 24px;
+ color: var(--icons-bg-primary);
+}
+
+.description {
+    margin-top: 8px;
+    font-size: .8em;
+}
+
+.a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+
+.a :hover {
+    background-color: var(--bg-primary);
+    color: white;
+}
+
+.btn {
+    color: #222;
+    text-decoration: none;
+    background-color: pink;
+    border: #222;
+    
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.uts-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hsl(295, 85%, 45%);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.next-button:hover, .uts-button {
+    background-color:#0056b3;
+}
+
+.back-button:hover, .uts-button {
+    background-color:#0056b3;
+}
